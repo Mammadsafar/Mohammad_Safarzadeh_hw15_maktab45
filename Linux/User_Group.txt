@@ -1,0 +1,45 @@
+-----
+sudo groupadd maktab45
+
+-----
+
+useradd ali
+
+-----
+
+sudo passwd ali
+
+-----
+
+sudo usermod -a -G maktab45 ali
+
+-----
+
+sudo usermod -a -G sudo ali
+
+-----
+
+sudo su ali
+
+-----
+
+sudo nano
+
+echo Hello Linux
+
+y
+
+tst.sh
+
+-----
+
+
+-----
+
+sudo chmod 700 tst.sh
+
+sudo chown ali tst.sh
+
+sudo chgrp maktab45 tst.sh
+
+-----
